@@ -17,6 +17,11 @@ public class IndexController {
         return new ModelAndView("index");
     }
 
+    @GetMapping("/example")
+    public ModelAndView getExIndex() {
+        return new ModelAndView("home");
+    }
+
     @GetMapping("/refer")
     public ModelAndView getReferenceIndex() {
         return new ModelAndView("referenceIndex");
