@@ -1,0 +1,18 @@
+spring:
+  profiles: local
+  datasource:
+    url: jdbc:mariadb://127.0.0.1:3306/flexibledev
+    username: flexibledev
+    password: 1234
+    driver-class-name: org.mariadb.jdbc.Driver
+    initialize: false
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+

@@ -1,0 +1,1 @@
+INSERT INTO board(title, content, registration_date) VALUES ('테스트', '테스트입니다.', NOW())
