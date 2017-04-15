@@ -13,7 +13,6 @@ public class FlexibledevApplication extends SpringBootServletInitializer {
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
 		return builder.sources(Application.class);
 	}
-
 	public static void main(String[] args) {
 		SpringApplication.run(FlexibledevApplication.class, args);
 	}
